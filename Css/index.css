@@ -1,0 +1,1360 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden !important;
+}
+.center-container {
+  overflow-x: hidden;
+}
+nav {
+  background-color: white;
+  color: black;
+  height: 90px;
+}
+.navbar-toggler {
+  border: none !important;
+  box-shadow: none !important;
+  font-size: 25px;
+}
+.btn-close {
+  font-size: 25px;
+  color: black;
+}
+.nav-link:hover {
+  color: #a46e58 !important;
+}
+.nav-link:active {
+  border-bottom: 2px solid #a46e58;
+  transition: all 0.3s ease-in-out;
+}
+.active {
+  border-bottom: 2px solid #a46e58;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url(/Images/Hero-gif.gif);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 20px 20px 20px;
+  border-radius: 20px;
+}
+.navbar-brand img {
+  width: 100px;
+}
+.offcanvas-title img {
+  width: 100px;
+}
+.nav-link {
+  text-transform: capitalize;
+  font-family: "Gentium Book Plus", serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+.nav-iso {
+  width: 100px;
+}
+.nav-iatf {
+  width: 68px;
+}
+.hero-con {
+  width: 100%;
+  padding: 40px 20px;
+  padding-right: 80px;
+}
+.abt-hero-h1 {
+  font-family: "Geist Mono", monospace;
+}
+.hero-con h1 {
+  color: white;
+  font-family: "Geist Mono", monospace;
+}
+.about-hero .hero-con button {
+  padding: 0.676vw 2.906vw;
+  background: linear-gradient(#653b33, #a46e58);
+  border: 1px solid white;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-family: "Geist Mono", monospace;
+  font-weight: 800;
+}
+.abt-com-p {
+  font-family: "Instrument Sans", sans-serif;
+  list-style-type: none;
+}
+.right a {
+  background-color: #efefef;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  font-family: "Instrument Sans", sans-serif;
+}
+.serv-head {
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.our-services {
+  background-color: #efefef;
+  border-radius: 20px;
+}
+.view-btn {
+  padding: 10px 60px;
+  font-size: 23px;
+  border-radius: 50px;
+  color: white;
+  font-weight: 600px;
+  border: none;
+  background: linear-gradient(#653b33, #a46e58);
+  font-family: "Instrument Sans", sans-serif;
+}
+.view-btn-link {
+  color: white;
+  text-decoration: none;
+}
+.about-btn {
+  width: 60%;
+  padding: 5px 10px;
+  background: linear-gradient(#74473b, #14220f);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-family: "Instrument Sans", sans-serif;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.about-btn-link {
+  text-decoration: none;
+}
+.about-abt-head {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 23px;
+  color: #8a8a8a;
+}
+.about-img-con img {
+  width: 27.041vw;
+  height: 19.531vw;
+}
+.quality-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/Images/Quality-hero.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 20px 20px 20px;
+  border-radius: 20px;
+}
+.about-img-con p {
+  font-family: "Poppins", sans-serif;
+  color: #535353;
+}
+.about-con h1 {
+  font-family: "Geist Mono", monospace;
+}
+.spec-num h1 {
+  font-family: "Geist Mono", monospace;
+}
+.about-con p {
+  font-family: "Poppins", sans-serif;
+  color: #8a8a8a;
+  line-height: 30px;
+  text-align: justify;
+}
+.our-services .services-card-1 .services-head {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/Images/Home-Images/Nickel-painting.png);
+  width: 26.041vw;
+  height: 32.552vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  border-radius: 20px;
+  padding: 0 0 20px 20px;
+}
+.our-services .services-card-2 .services-head {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/Images/Service-Images/Tin\ Plating.jpg);
+  width: 26.041vw;
+  height: 32.552vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  border-radius: 20px;
+  padding: 0 0 20px 20px;
+}
+.our-services .services-card-3 .services-head {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/Images/Service-Images/Zinc\ Plating.jpg);
+  width: 26.041vw;
+  height: 32.552vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  border-radius: 20px;
+  padding: 0 0 20px 20px;
+}
+.services-card-1 .service-detail,
+.services-card-2 .service-detail,
+.services-card-3 .service-detail {
+  border: 2px solid black;
+  border-radius: 30px;
+  text-transform: capitalize;
+  font-family: "Instrument Sans", sans-serif;
+}
+
+.service-hero {
+  height: 100vh;
+  margin: 90px 20px 20px 20px;
+  background: #bd9787;
+  background: linear-gradient(
+    180deg,
+    rgba(164, 110, 88, 0.72) 23.93%,
+    rgba(101, 59, 51, 0.8) 112.24%
+  );
+  border-radius: 20px;
+}
+.service-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 0;
+  gap: 50px;
+  align-items: center;
+}
+.d-btns {
+  background-color: rgba(239, 239, 239, 0.31);
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 95%;
+}
+.d-btns button {
+  border: none;
+  background-color: transparent;
+  font-size: 1vw;
+  padding: 25px 10px;
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 600;
+}
+
+.d-btns button.btn-active {
+  backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  background: #383838;
+  border-radius: 0px;
+  border: 0px solid #72665f;
+  border-width: 0px 0px 4px 0px;
+  border-radius: 10px;
+  color: #fff;
+  font-style: normal;
+}
+
+.model {
+  width: 60%;
+  height: 70%;
+}
+model-viewer {
+  height: 100%;
+  width: 100%;
+}
+.our-services .service-link {
+  color: black;
+  text-decoration: none;
+}
+.services-head h2 {
+  font-size: 1.953vw;
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 800;
+}
+.service-head p {
+  font-size: 1.718vw;
+  font-family: "Instrument Sans", sans-serif;
+}
+.vission-head {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 22px;
+  color: #8a8a8a;
+}
+.vission-head-head {
+  font-family: "Geist Mono", monospace;
+  line-height: 60px;
+}
+.vission-para {
+  font-family: "Instrument Sans", sans-serif;
+}
+.certificate-head {
+  font-family: "Instrument Sans", sans-serif;
+  color: #8a8a8a;
+}
+.certificate-head-head {
+  font-family: "Geist Mono", monospace;
+  text-transform: capitalize;
+}
+.certificate-para {
+  font-family: "Instrument Sans", sans-serif;
+  color: #8a8a8a;
+}
+
+.certificates {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 10px;
+}
+.certificates img {
+  border-radius: 10px;
+}
+
+.div1 {
+  grid-column: span 2 / span 2;
+  grid-row: span 3 / span 3;
+}
+
+.div2 {
+  grid-column: span 2 / span 2;
+  grid-row: span 2 / span 2;
+  grid-column-start: 1;
+  grid-row-start: 4;
+}
+
+.div3 {
+  grid-column: span 2 / span 2;
+  grid-row: span 2 / span 2;
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+
+.div4 {
+  grid-column: span 2 / span 2;
+  grid-row: span 3 / span 3;
+  grid-column-start: 3;
+  grid-row-start: 3;
+}
+
+.feature-img {
+  width: 35.807vw;
+  height: 29.296vw;
+  border-radius: 20px;
+}
+.featured-projects {
+  background-color: #f9f9f9;
+}
+.featured-projects h3 {
+  font-family: "Instrument Sans", sans-serif;
+  text-transform: uppercase;
+  color: #8a8a8a;
+}
+.featured-projects h2 {
+  font-family: "Instrument Sans", sans-serif;
+}
+.project-head {
+  font-family: "Instrument Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.our-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  color: white;
+}
+.project-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.515), rgba(0, 0, 0, 0.515)),
+    url(/Images/Home-Images/sample\ project.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  height: 200px;
+  font-family: "Geist Mono", monospace;
+  text-transform: uppercase;
+}
+.project-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/Images/Home-Images/Projects-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  padding: 20px;
+  font-family: "Instrument Sans", sans-serif;
+}
+.project-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/Images/Home-Images/Projects-3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  padding: 20px;
+}
+.project-4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/Images/Home-Images/Projects-4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  padding: 20px;
+}
+.images h3 {
+  text-transform: uppercase;
+  font-family: "Instrument Sans", sans-serif;
+}
+.images p {
+  font-family: "Instrument Sans", sans-serif;
+  color: #5e5e5e;
+  text-align: justify;
+}
+.our-services-images h1 {
+  font-family: "Instrument Sans", sans-serif;
+}
+.test-head {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 18px;
+  color: #8a8a8a;
+}
+.test-head-para {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 16px;
+  color: #8a8a8a;
+}
+.tell-us {
+  color: white;
+  background-color: #171e1e;
+}
+.tell-us-in {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+.tell-us-in input {
+  border: none;
+  padding: 20px;
+  background-color: transparent;
+  width: 80%;
+  outline: none;
+  font-family: "Geist Mono", monospace;
+}
+.tell-us-in button {
+  background: linear-gradient(#653b33, #cb7767);
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.test-1 {
+  background-color: #14220f;
+  color: white;
+  padding: 40px 30px;
+  border-radius: 20px;
+  font-family: "Instrument Sans", sans-serif;
+}
+.what-head {
+  font-family: "Geist Mono", monospace;
+}
+.search-btn {
+  background: linear-gradient(#653b33, #a46e58);
+  color: white;
+  border-radius: 0;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 15px;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 50px;
+  height: 50px;
+}
+.footer {
+  background-color: black;
+  color: white;
+  font-family: "Nunito", sans-serif;
+}
+.foot-2-img {
+  width: 100%;
+}
+.map {
+  width: 10vw;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 10px;
+}
+.quote {
+  font-size: 60px;
+}
+.vision-img {
+  width: 32.552vw;
+  border-radius: 20px;
+}
+
+.images h3 {
+  font-family: "Instrument Sans", sans-serif;
+}
+.buttons-active {
+  background-color: white;
+}
+.service-hero-img {
+  width: 26.041vw;
+  height: 11.067vw;
+  border-radius: 10px;
+}
+.our-services-images img {
+  width: 100%;
+  height: 38.25vw;
+  object-fit: cover;
+}
+.our-services-images {
+  background-color: #f4f4f4;
+}
+.certificates img {
+  width: 100%;
+}
+.about-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url(/Images/Service-Images/our-work-7.png);
+  height: 100vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 20px 20px 20px;
+  border-radius: 20px;
+}
+.quality-hero-con button {
+  padding: 15px 60px;
+  background: linear-gradient(#653b33, #a46e58);
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+.qual-1 h1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/Images/About-Images/special-1.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 30px;
+  width: 37.807vw;
+  height: 29.296vw;
+  border-radius: 20px;
+}
+.qual-2 h1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/Images/Home-Images/Projects-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 30px;
+  width: 37.807vw;
+  height: 29.296vw;
+  border-radius: 20px;
+}
+.Qp-head {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 23px;
+  color: #8a8a8a;
+}
+.Qp-head-para {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 35px;
+}
+.policy {
+  font-family: "Geist Mono", monospace;
+}
+.policy-list {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: #8a8a8a;
+}
+.safety-policy img {
+  width: 100%;
+}
+.contact-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.437), rgba(0, 0, 0, 0.437)),
+    url(/Images/contact-images/contact--hero.png);
+  height: fit-content;
+  padding: 100px 0;
+  color: white;
+  margin: 90px 20px 20px 20px;
+  border-radius: 20px;
+}
+.gallery-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url(/Images/Gallery-Images/Gal-images-1.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 20px 20px 20px;
+  border-radius: 20px;
+}
+.con-details li a {
+  font-weight: 800;
+  color: white;
+}
+.gallery-head {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 24px;
+  color: #8a8a8a;
+}
+.gal-image-con {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 20px;
+}
+.gal-image-con img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.img-1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column: 1;
+  height: 100%;
+}
+
+.img-2 {
+  height: 23.5125vw;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.img-3 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  height: 100%;
+}
+
+.img-4 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  height: 100%;
+}
+.img-5 {
+  height: 100%;
+}
+.img-6 {
+  height: 23.8125vw;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.img-7 {
+  grid-row-start: 4;
+  grid-row-end: 6;
+  grid-column: 3;
+}
+.img-10 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  height: 22.8125vw;
+}
+.hero-content h1 {
+  font-family: "Geist Mono", monospace;
+  font-size: 25px;
+}
+.hero-content p {
+  font-family: "Instrument Sans", sans-serif;
+  line-height: 35px;
+}
+.lab-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/Images/Service-Images/our-work-4.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 20px 20px 20px;
+  border-radius: 20px;
+}
+.lab-test-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.522), rgba(0, 0, 0, 0.522)),
+    url(/Images/lab-images/LAB\ -\ 5.jpg);
+  height: 40vh;
+}
+.lab-test-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.522), rgba(0, 0, 0, 0.522)),
+    url(/Images/lab-images/LAB\ -\ 4.png);
+  border-radius: 20px;
+}
+.lab-test-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.522), rgba(0, 0, 0, 0.522)),
+    url(/Images/lab-images/LAB\ -\ 3.png);
+}
+.lab-test-4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.522), rgba(0, 0, 0, 0.522)),
+    url(/Images/lab-images/LAB\ -\ 2.png);
+}
+.lab-test-5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.522), rgba(0, 0, 0, 0.522)),
+    url(/Images/lab-images/lab-test-5.png);
+}
+.lab-test-5,
+.lab-test-4,
+.lab-test-3,
+.lab-test-2,
+.lab-test-1 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-transform: capitalize;
+}
+.lab-test-1 h2,
+.lab-test-2 h2,
+.lab-test-3 h2,
+.lab-test-4 h2,
+.lab-test-5 h2 {
+  font-size: 2.604vw;
+  font-family: "Geist Mono", monospace;
+  font-weight: 800;
+}
+.lab-test-1 p,
+.lab-test-2 p,
+.lab-test-3 p,
+.lab-test-4 p,
+.lab-test-5 p {
+  font-size: 0.976vw;
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+}
+#card-number {
+  font-size: 6rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+}
+.scroll-container {
+  height: 80vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  padding: 0px 20px 100px;
+  box-sizing: border-box;
+}
+.card {
+  height: 500px;
+  margin: 20px 0;
+  background-color: #f0f0f0;
+  border-radius: 40px;
+  display: flex;
+  align-items: start;
+  justify-content: end;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 20px;
+  gap: 20px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.tit {
+  font-family: "Geist Mono", monospace;
+}
+.tit-para {
+  font-family: "Instrument Sans", sans-serif;
+  line-height: 30px;
+}
+.con-form {
+  background-color: white;
+  border-radius: 20px;
+}
+.con-form form input {
+  border-radius: 50px;
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 15px;
+  border: 1px solid rgba(224, 224, 224, 1);
+  background-color: rgba(250, 250, 250, 1);
+}
+.con-form form textarea {
+  border-radius: 30px;
+  font-size: 15px;
+  font-family: "Instrument Sans", sans-serif;
+  border: 1px solid rgba(224, 224, 224, 1);
+  background-color: rgba(250, 250, 250, 1);
+}
+.con-head {
+  font-family: "Geist Mono", monospace;
+  text-transform: uppercase;
+  font-size: 60px;
+}
+.con-para {
+  font-family: "Instrument Sans", sans-serif;
+  text-align: justify;
+}
+.con-btn {
+  width: 100%;
+  background: linear-gradient(#653b33, #a46e58);
+  color: white;
+  border-radius: 0;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+}
+.valid-feedback,
+.invalid-feedback {
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 500;
+}
+.con-btn:hover {
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 0;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.footer p {
+  font-size: 1vw;
+  list-style-type: none;
+  text-align: center;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 1vw;
+  text-align: center;
+  font-family: "Instrument Sans", sans-serif;
+}
+.footer .head {
+  text-decoration: underline;
+  font-weight: 800;
+  font-size: 1.1vw;
+  font-family: "Instrument Sans", sans-serif;
+}
+.foot-logo {
+  width: 80px;
+  background-color: white;
+}
+.copyrights p {
+  font-size: 1.1vw;
+  font-family: "Instrument Sans", sans-serif;
+}
+.footer address {
+  font-size: 1.1vw;
+  text-align: center;
+  font-family: "Instrument Sans", sans-serif;
+}
+@media only screen and (max-width: 990px) {
+  .hero h1,
+  .about-hero h1,
+  .quality-hero h1,
+  .service-hero h1,
+  .lab-hero h1,
+  .gallery-hero h1 {
+    font-size: 28px;
+    font-weight: 800;
+    padding: 0;
+  }
+
+  .about-btn {
+    width: 30%;
+    display: grid;
+    place-items: center;
+  }
+  .our-projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    color: white;
+  }
+  .nav-link {
+    font-size: 18px;
+  }
+  .service-hero {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .d-btns {
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+  }
+  .d-btns button {
+    border: 3px solid white;
+    background-color: white;
+    font-size: 2vw;
+    padding: 10px 5px;
+    width: 30%;
+    font-weight: 600;
+    border-radius: 10px;
+    font-family: "Instrument Sans", sans-serif;
+  }
+  .our-services-images img {
+    width: 100%;
+    height: 76.25vw;
+    object-fit: cover;
+  }
+  .services-head h2 {
+    font-size: 3vw;
+    font-family: "Instrument Sans", sans-serif;
+    font-weight: 800;
+  }
+  .service-head p {
+    font-size: 0.718vw;
+    font-family: "Instrument Sans", sans-serif;
+  }
+  .feature-img {
+    width: 35.807vw;
+    height: 29.296vw;
+    border-radius: 20px;
+  }
+  .about-img-con img {
+    width: 65.041vw;
+    height: auto;
+  }
+  .vision-img {
+    width: 55.552vw;
+    border-radius: 20px;
+  }
+  .qual-1 h1 {
+    width: 39.807vw;
+    height: 51.296vw;
+  }
+
+  .qual-2 h1 {
+    width: 39.807vw;
+    height: 51.296vw;
+  }
+  .lab-test-1 h2,
+  .lab-test-2 h2,
+  .lab-test-3 h2,
+  .lab-test-4 h2,
+  .lab-test-5 h2 {
+    font-size: 3.953vw;
+  }
+  .lab-test-1 p,
+  .lab-test-2 p,
+  .lab-test-3 p,
+  .lab-test-4 p,
+  .lab-test-5 p {
+    font-size: 1.851vw;
+  }
+  .lab-card-head {
+    font-family: "Geist Mono", monospace;
+    font-size: 30px;
+  }
+  .lab-card-para {
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 12px;
+    line-height: 23px;
+  }
+  .footer p {
+    font-size: 2vw;
+  }
+  .footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 2vw;
+  }
+  .copyrights p {
+    font-size: 2vw;
+  }
+  .footer address {
+    font-size: 2vw;
+  }
+  .footer .head {
+    font-size: 2vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero {
+    height: 60vh;
+  }
+  .about-hero{
+    height: 60vh;
+  }
+  .quality-hero{
+    height: 60vh;
+  }
+  .lab-hero{
+    height: 60vh;
+  }
+  .gallery-hero{
+    height: 60vh;
+  }
+  .nav-link {
+    font-size: 16px;
+  }
+  .hero-con {
+    width: 100%;
+    padding: 10px;
+    padding-right: 0;
+  }
+  .footeradress {
+    text-align: justify !important;
+  }
+  .hero h1,
+  .about-hero h1,
+  .quality-hero h1,
+  .service-hero h1,
+  .lab-hero h1,
+  .gallery-hero h1 {
+    font-size: 20px;
+    padding: 0;
+    font-weight: 800;
+    text-align: center;
+  }
+  .about-btn {
+    width: 60%;
+  }
+  .our-projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+  }
+  .project-head {
+    text-align: center;
+  }
+  .serv-head {
+    font-family: "Instrument Sans", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 30px;
+    text-align: center;
+  }
+  .test-para p {
+    font-size: 13px;
+  }
+  .about-us h3 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .about-us h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .about-us p {
+    font-size: 14px;
+    line-height: 23px;
+    line-height: 25px;
+  }
+  .view-btn {
+    padding: 8px 60px;
+    font-size: 19px;
+    color: white;
+    font-weight: 800px;
+    border: none;
+    background: linear-gradient(#653b33, #a46e58);
+    font-family: "Instrument Sans", sans-serif;
+  }
+  .featured-projects h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .featured-projects h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .certificate-head {
+    font-size: 16px;
+    text-align: center;
+  }
+  .certificate-head-head {
+    font-size: 20px;
+    text-align: center;
+  }
+  .certificate-para {
+    font-size: 15px;
+    text-align: center;
+  }
+  .test-head {
+    font-size: 16px;
+    text-align: center;
+  }
+  .service-hero-img {
+    width: 50.041vw;
+    height: auto;
+  }
+  .test-head-para {
+    font-size: 15px;
+    text-align: center;
+  }
+  .our-services-images h1 {
+    text-align: center;
+  }
+  .our-services .services-card-1 .services-head,
+  .our-services .services-card-2 .services-head,
+  .our-services .services-card-3 .services-head {
+    width: 72.041vw;
+    height: 48.552vw;
+  }
+  .services-head h2 {
+    font-size: 7.953vw;
+    font-family: "Instrument Sans", sans-serif;
+    font-weight: 800;
+  }
+  .service-hero {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .d-btns {
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+  }
+  .d-btns button {
+    border: 2px solid white;
+    background-color: white;
+    font-size: 3vw;
+    padding: 10px 5px;
+    width: 45%;
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: "Instrument Sans", sans-serif;
+  }
+
+  .service-head p {
+    font-size: 0.718vw;
+    font-family: "Instrument Sans", sans-serif;
+  }
+  .Qp-head {
+    font-size: 18px;
+    text-align: center;
+  }
+  .Qp-head-para {
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px;
+  }
+  .our-services-images img {
+    width: 100%;
+    height: 85.25vw;
+    object-fit: cover;
+  }
+  .policy {
+    font-size: 20px;
+  }
+  .policy-list {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .images h3 {
+    font-size: 19px;
+  }
+  .images p {
+    font-size: 15px;
+  }
+  .feature-img {
+    width: 76.807vw;
+    height: auto;
+    border-radius: 20px;
+  }
+  .about-img-con img {
+    width: 55.041vw;
+    height: auto;
+  }
+  .vision-img {
+    width: 81.552vw;
+    border-radius: 20px;
+  }
+  .qual-1 h1 {
+    width: 77.807vw;
+    height: 57.296vw;
+  }
+  .qual-2 h1 {
+    width: 77.807vw;
+    height: 57.296vw;
+  }
+  .lab-content h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .lab-content p {
+    font-size: 14px;
+    line-height: 25px;
+    text-align: justify;
+  }
+  .lab-test h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .lab-cards h1 {
+    font-size: 50px;
+  }
+  .our-projects {
+    display: flex;
+    flex-direction: column;
+  }
+  .tell-us-in input {
+    padding: 13px 8px;
+    font-size: 12px;
+  }
+  .tell-us-in button {
+    font-size: 10px;
+    padding: 10px 20px;
+  }
+  .vission-head {
+    text-align: center;
+    font-size: 18px;
+  }
+  .vission-head-head {
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+  }
+  .vission-para {
+    font-family: "Instrument Sans", sans-serif;
+    text-align: center;
+  }
+  .gal-image-con {
+    display: flex;
+  }
+  .gal-image-con img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .img-1,
+  .img-2,
+  .img-3,
+  .img-4,
+  .img-5,
+  .img-6,
+  .img-7,
+  .img-8,
+  .img-9,
+  .img-10 {
+    height: 100%;
+  }
+  .lab-card-head {
+    font-family: "Geist Mono", monospace;
+    font-size: 25px;
+    font-weight: 800;
+  }
+  .lab-card-para {
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 13px;
+    line-height: 28px;
+  }
+  .project-head {
+    font-size: 24px;
+  }
+  .tit {
+    font-size: 22px;
+    text-align: justify;
+  }
+  .tit-para {
+    font-size: 16px;
+    text-align: justify;
+  }
+  .gallery-head {
+    font-size: 30px;
+    text-align: center;
+  }
+  .con-head {
+    font-size: 40px;
+    text-align: center;
+  }
+  .con-para {
+    font-size: 15px;
+    text-align: center;
+  }
+  .test-1 {
+    background-color: #14220f;
+    color: white;
+    padding: 30px 40px;
+    border-radius: 20px;
+    font-family: "Instrument Sans", sans-serif;
+  }
+  .about-hero .hero-con button {
+    padding: 1.476vw 6.906vw;
+    background: linear-gradient(#653b33, #a46e58);
+    border: 1px solid white;
+    color: white;
+    font-size: 14px;
+    border-radius: 20px;
+  }
+  .lab-test-1 h2,
+  .lab-test-2 h2,
+  .lab-test-3 h2,
+  .lab-test-4 h2,
+  .lab-test-5 h2 {
+    font-size: 5.953vw;
+    font-family: "Geist Mono", monospace;
+    font-weight: 800;
+  }
+  .lab-test-1 p,
+  .lab-test-2 p,
+  .lab-test-3 p,
+  .lab-test-4 p,
+  .lab-test-5 p {
+    font-size: 3vw;
+    font-family: "Instrument Sans", sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .footer p {
+    font-size: 3.5vw;
+    text-align: center;
+  }
+  .footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 3.5vw;
+    text-align: center;
+  }
+  .copyrights p {
+    font-size: 3.5vw;
+  }
+  .footer address {
+    font-size: 3.5vw;
+  }
+  .footer .head {
+    font-size: 3.5vw;
+  }
+}

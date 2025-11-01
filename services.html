@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="/Images/Logo.png" type="image/x-icon" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/Css/index.css" />
+    <title>Dynamic Engineers - services</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top px-5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img src="/Images/Logo.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              <img src="/Images/Logo.png" alt="" />
+            </h5>
+            <button
+              type="button"
+              class="btn-close me-0 mb-0"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul
+              class="navbar-nav justify-content-end flex-grow-1 gap-3 align-items-center"
+            >
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Quality.html">quality</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/services.html"
+                  >our services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Lab.html">In house lab</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <img src="/Images/iso logo.png" alt="" class="nav-iso" />
+              </li>
+              <li class="nav-item">
+                <img src="/Images/DE-Logo.png" alt="" class="nav-iatf" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="center-container">
+      <div class="service-hero">
+        <div class="d-btns" data-aos="fade-down">
+          <button>Lube Coating</button>
+          <button>Manganese Phosphating</button>
+          <button>Moly Coating</button>
+          <button>Nickel Plating</button>
+          <button>Powder Coating</button>
+          <button>Silver Plating</button>
+          <button>Tin Plating</button>
+          <button>Zinc Flake Coating</button>
+          <button>Zinc Phosphating</button>
+          <button>Zinc Plating</button>
+        </div>
+        <div class="model" data-aos="fade-up">
+          <model-viewer
+            src="./modal/glb/Lube Coating.glb"
+            alt="A 3D model of a car"
+            auto-rotate
+            camera-controls
+            disable-zoom
+            shadow-intensity="1"
+          ></model-viewer>
+        </div>
+      </div>
+
+      <div class="our-services-images mb-5 pb-5 pt-5">
+        <div
+          class="row d-flex justify-content-between col-10 mx-auto mb-3 pt-5"
+        >
+          <div class="col-lg-6">
+            <h1 class="mb-3">Our work</h1>
+          </div>
+        </div>
+        <div class="images mx-auto col-10">
+          <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-right">
+              <img
+                src="/Images/Service-Images/our-work-9.png"
+                alt=""
+                class="mb-4"
+              />
+              <h3 class="mb-2">moly coating</h3>
+              <p>
+                Molybdenum disulfide (Moly) is a solid additive, most commonly
+                used in extreme pressure applications. It is used post Zinc
+                phosphating as a dry lubricating layer as it has one of the
+                lowest coefficient of friction and a very high operating
+                temperature.
+              </p>
+            </div>
+            <div class="col-lg-6 mb-5" data-aos="fade-left">
+              <img
+                src="/Images/Service-Images/Zinc Plating.jpg"
+                alt=""
+                class="mb-4"
+              />
+              <h3 class="mb-2">Zinc Plating</h3>
+              <p>
+                The fundamental aim of zinc electroplating is to protect metals
+                from rust or corrosion. Zinc plated coatings are also known as
+                sacrificial coatings because the zinc coating sacrifices itself
+                to protect the underlying metal from corrosion.
+              </p>
+              <p>
+                Zinc electroplating has to do with the electro-deposition of a
+                thin layer of zinc metal on the surface of another metal which
+                is known as substrate. The zinc coating serves as physical
+                protection which prevents rust from affecting the underlying
+                metal surface.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-right">
+              <img
+                src="/Images/Service-Images/our-work-7.png"
+                alt=""
+                class="mb-4"
+              />
+              <h3 class="mb-2">MANGANESE PHOSPHATING</h3>
+              <p>
+                Manganese phosphating is extensively employed to improve the
+                sliding properties of engine, gear, and power transmission
+                systems. Manganese phosphate coating has the highest hardness
+                and superior corrosion and wear resistances of general phosphate
+                coatings. The use of manganese phosphated coatings for improved
+                corrosion resistance can be found in virtually all branches of
+                the metal working-industry.
+              </p>
+
+              <p>
+                Typical examples mentioned here include motor vehicle components
+                in brake and clutch assemblies, engine components, leaf or coil
+                springs, drill bits, screws, nuts and bolts, washers,
+                anti-vibration washers, tools, magnet cores, casting interiors
+                and many other small items.
+              </p>
+            </div>
+            <div class="col-lg-6 mb-5" data-aos="fade-left">
+              <img
+                src="/Images/Service-Images/our-work-6.png"
+                alt=""
+                class="mb-4"
+              />
+              <h3 class="mb-2">Zinc PHOSPHATING</h3>
+              <p>
+                Zinc Phosphating is a conversion coating wherein the metal
+                surface mostly iron and steel are converted into their
+                corresponding metal phosphates by chemical reactions. Zinc
+                phosphate coatings are used for corrosion resistance, as a
+                lubricant-holding layer, and as a paint/coating base. It is
+                widely used in the wire drawing works, automotive industry and
+                in certain sectors of the appliance and electronics
+                industries.Zinc phosphate coatings play a key role in holding
+                lubrication for the component to be forged / cold worked
+                subsequently.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-right">
+              <img
+                src="/Images/Service-Images/Tin Plating.jpg"
+                alt=""
+                class="mb-4"
+              />
+              <h3 class="mb-2">tin plating</h3>
+              <p>
+                Tin is a soft, ductile, silvery-white metal that is not easily
+                oxidized in air. It has good conductivity and corrosion
+                resistance while enhancing solderability of substrates that are
+                not otherwise easily soldered to. For substrates alloyed with
+                zinc (such as brass alloys) it is generally recommended to apply
+                a diffusion barrier of nickel plating or copper plating to
+                prevent zinc migration into the tin deposit and resultant
+                intermetallic formation.
+              </p>
+            </div>
+            <div class="col-lg-6 mb-5" data-aos="fade-left">
+              <img
+                src="/Images/Service-Images/our-work-4.png"
+                alt=""
+                class="mb-4"
+              />
+              <h3 class="mb-2">nickel plating</h3>
+              <p>
+                In addition to creating an aesthetically-pleasing product,
+                nickel is also sought after for its corrosion-resistant
+                properties. It also improves solderability and lubricity. Nickel
+                provides a great combination of corrosion and wear resistance.
+              </p>
+              <p>
+                It can provide excellent adhesion properties for subsequent
+                coating layers, which is why it is often used as an “undercoat”
+                for other coatings. It is widely used commercially because of
+                its beneficial properties and versatility as a coating material.
+                The properties and appearance can be customized to specific
+                needs.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-right">
+              <img
+                src="/Images/Service-Images/Silver Plating.jpg"
+                alt=""
+                class="mb-4 w-100"
+              />
+              <h3 class="mb-2">silver PLATING</h3>
+              <p>
+                Silver finishes are usually recognized as a decorative coating,
+                but is also an engineering coating due to its superior
+                conductivity and corrosion resistance. Silver’s conductivity
+                allows for extensive use in electrical components.
+              </p>
+              <p>
+                Silver is the least expensive precious metal, so a silver
+                plating solution is far less costly than choosing gold, platinum
+                or palladium and should be the first option if considering using
+                a precious metal.
+              </p>
+            </div>
+            <div class="col-lg-6 mb-5" data-aos="fade-left">
+              <img
+                src="/Images/Service-Images/our-work-2.png"
+                alt=""
+                class="mb-4"
+              />
+              <h3 class="mb-2">lube coating</h3>
+              <p>
+                Lube coating is used post zinc phosphating to provide
+                lubrication to the metal surfaces prior to cold forging. The
+                lube reacts with the phosphate crystal to bond to the metal
+                surface.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="container-fluid col-10 mx-auto pt-5 pb-5">
+          <div class="row">
+            <div
+              class="col-lg-2 col-md-4 col-sm-12 col-12 mb-5"
+              data-aos="fade-right"
+            >
+              <img
+                src="/Images/Logo.png"
+                alt=""
+                class="d-block mx-auto foot-logo"
+              />
+            </div>
+            <div
+              class="col-lg-2 col-md-4 col-sm-6 col-8 mx-auto"
+              data-aos="fade-right"
+            >
+              <div
+                class="d-flex flex-column gap-0 mb-5 text-lg-start text-md-start text-sm-center"
+              >
+                <p class="head">Contact Info</p>
+                <address>
+                  Head Office <br />
+                  C-58,<br />Sidco Industrial Estate, Maraimalai Nagar,
+                  Chennai,<br />Tamil Nadu - 603209
+                </address>
+              </div>
+            </div>
+            <div
+              class="col-lg-2 col-md-4 col-sm-6 col-8 mx-auto"
+              data-aos="fade-right"
+            >
+              <div
+                class="d-flex flex-column gap-3 mb-5 text-lg-start text-md-start text-sm-center"
+              >
+                <address>
+                  <p class="head">Branch Office</p>
+                  No.259, Tiny Shed, Ambattur Industrial Estate, <br />
+                  Chennai, <br />
+                  Tamil Nadu - 600058
+                </address>
+              </div>
+            </div>
+            <div
+              class="col-lg-2 col-md-4 col-sm-6 col-12 con-details"
+              data-aos="fade-left"
+            >
+              <div
+                class="d-flex flex-column gap-3 mb-5 text-lg-start text-md-start text-sm-center"
+              >
+                <p class="head m-0">Contact Details</p>
+                <a href="mailto:dynamicelectroplaters@gmail.com"
+                  >dynamicelectroplaters@<br />gmail.com</a
+                >
+                <a href="tel:+91 86101 01495">+91 86101 01495</a>
+                <a href="tel:+91 98410 91114">+91 98410 91114</a>
+                <a href="tel:+91 98416 31114">+91 98416 31114</a>
+                <a href="tel:+91 44 474 00120">+91 44 474 00120</a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-12" data-aos="fade-left">
+              <div
+                class="d-flex flex-column gap-2 mb-5 text-lg-start text-md-start text-sm-center"
+              >
+                <p class="head m-0">Quick Links</p>
+                <a href="/index.html">Home</a>
+                <a href="/about.html">Profile</a>
+                <a href="/Quality.html">Quality</a>
+                <a href="/services.html">Our Services</a>
+                <a href="/Lab.html">In House Lab</a>
+                <a href="/gallery.html">Gallery</a>
+                <a href="/contact.html">Contact</a>
+              </div>
+            </div>
+            <div
+              class="col-lg-2 col-md-4 col-sm-12 col-12"
+              data-aos="fade-left"
+            >
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15564.22387150557!2d80.01413789522074!3d12.774877350361043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f9e86c0dff31%3A0x653da2c8a8ca6395!2sDynamic%20Engineers%20%26%20Electroplaters!5e0!3m2!1sen!2sin!4v1760072951296!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <div
+          class="copyrights d-flex flex-column flex-sm-row flex-lg-row justify-content-center align-items-center gap-2 gap-md-4 gap-lg-5"
+        >
+          <p>&copy Copyright 2025. All Rights Reserved</p>
+          <p>| Terms & Conditions</p>
+          <p>| Privacy Policy</p>
+        </div>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="Js/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
