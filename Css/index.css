@@ -572,8 +572,8 @@ model-viewer {
 }
 .qual-2 h1 {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(/Images/Home-Images/Projects-2.png);
-  background-position: center;
+    url(/Images/About-Images/special-1.png);
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -847,13 +847,11 @@ model-viewer {
 .footer p {
   font-size: 1vw;
   list-style-type: none;
-  text-align: center;
 }
 .footer a {
   text-decoration: none;
   color: white;
   font-size: 1vw;
-  text-align: center;
   font-family: "Instrument Sans", sans-serif;
 }
 .footer .head {
@@ -872,7 +870,6 @@ model-viewer {
 }
 .footer address {
   font-size: 1.1vw;
-  text-align: center;
   font-family: "Instrument Sans", sans-serif;
 }
 @media only screen and (max-width: 990px) {
